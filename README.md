@@ -9,3 +9,15 @@ Periodic sensor reading is controlled by the SysTick timer. The SysTick interrup
 The system also includes a built-in alert mechanism using a buzzer. If the rainfall percentage crosses the risk threshold (indicating heavy rain or light rain), the buzzer is immediately activated to warn the user. The buzzer is automatically silenced when safe weather conditions are detected. In this way, the system operates not only as a monitoring device but also as an autonomous alert and safety system.
 
 Overall, this project demonstrates real-time sensor acquisition, digital and analog signal processing, I2C-based LCD interfacing, UART data transmission, GPIO control, and interrupt-driven execution on the STM32F4 platform. It showcases how multiple environmental sensors can be integrated into a single embedded solution that can operate continuously, update automatically, display live feedback and send the same information to external devices for monitoring and data analysis. The project can be extended for smart agriculture, smart home automation, IoT-based weather tracking, hazard warning systems and environmental data logging applications.
+
+
+Output (sample)
+
+Weather Station
+System Ready
+
+T:  92%  H:  65%
+L:  48%  R:  10%
+
+
+Temp:29.4C Hum:64.7% Light:51% Rain:18% Status:HEAVY RAIN

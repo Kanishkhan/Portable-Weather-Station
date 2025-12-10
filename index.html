@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Weather Monitoring System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1 class="title">🌦 Smart Weather Monitoring Dashboard</h1>
+
+  <div class="dashboard">
+
+    <div class="card">
+      <h2>🌡 Temperature</h2>
+      <p id="tempVal">-- °C</p>
+    </div>
+
+    <div class="card">
+      <h2>💧 Humidity</h2>
+      <p id="humVal">-- %</p>
+    </div>
+
+    <div class="card">
+      <h2>🔆 Light Intensity</h2>
+      <p id="lightVal">-- %</p>
+    </div>
+
+    <div class="card">
+      <h2>🌧 Rain Level</h2>
+      <p id="rainVal">-- %</p>
+    </div>
+
+    <div class="card status">
+      <h2>🚨 Rain Status</h2>
+      <p id="rainStatus">--</p>
+    </div>
+
+    <div class="card buzzer">
+      <h2>🔔 Buzzer</h2>
+      <p id="buzzerMode">OFF</p>
+    </div>
+
+  </div>
+
+  <button id="simulateBtn" onclick="simulateData()">Simulate Sensor Readings</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

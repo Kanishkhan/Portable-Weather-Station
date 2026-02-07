@@ -44,5 +44,3 @@ Portable-Weather-Station/
 - Historical data logging and graphing.
 - Cloud connectivity for remote monitoring.
 
----
-*Created by [Kanishkhan](https://github.com/Kanishkhan)*
